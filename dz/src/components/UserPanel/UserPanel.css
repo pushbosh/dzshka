@@ -1,0 +1,64 @@
+/* Базовый контейнер: карточка со скруглёнными углами, тенью и небольшим отступом */
+.user-panel {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Светлая тема */
+  .user-panel.light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Тёмная тема */
+  .user-panel.dark {
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+  
+  /* Заголовок */
+  .user-panel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  /* Блок лайков */
+  .user-panel .likes {
+    font-size: 1rem;
+    margin: 0 0 15px;
+  }
+  
+  /* Пример стиля кнопок */
+  .user-panel .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0d6efd; /* синий фон */
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Ховер для кнопок */
+  .user-panel .btn:hover {
+    background-color: #0b5ed7; /* чуть темнее при наведении */
+  }
+  
+  /* Пример отдельной кнопки для лайка, если хотите отличить её */
+  .user-panel .like-btn {
+    background-color: #dc3545; /* например, красный цвет для лайка */
+  }
+  
+  /* Ховер для like-кнопки */
+  .user-panel .like-btn:hover {
+    background-color: #bb2d3b; 
+  }
+  
